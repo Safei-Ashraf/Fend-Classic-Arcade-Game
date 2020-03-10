@@ -23,6 +23,8 @@ class Player{
 
                 this.numberOfLives = 5;
                 this.startOver();
+                createGems();
+                score.reset();
 
             }else{
                 return;
