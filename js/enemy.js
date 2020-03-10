@@ -9,7 +9,7 @@ class Enemy{
     this.sprite = 'images/enemy-bug.png';
     this.x = x;
     this.y = y;
-    this.speed = 550 + (Math.random()*400); //Random Speed for enemy movements on X Axis.
+    this.speed = 550 + (Math.random()*450); //Random Speed for enemy movements on X Axis.
 
 }
     // Update the enemy's position, required method for game
@@ -28,5 +28,5 @@ class Enemy{
         ctx.drawImage(Resources.get(this.sprite), this.x-50, this.y-100);
     };
 }
-    console.log('Ninnininininini');
+   
 
