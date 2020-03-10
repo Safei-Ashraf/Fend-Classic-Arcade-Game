@@ -28,4 +28,5 @@ class Enemy{
         ctx.drawImage(Resources.get(this.sprite), this.x-50, this.y-100);
     };
 }
+    console.log('Ninnininininini');
 
