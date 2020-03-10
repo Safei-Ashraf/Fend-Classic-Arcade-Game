@@ -9,7 +9,7 @@ class Enemy{
     this.sprite = 'images/enemy-bug.png';
     this.x = x;
     this.y = y;
-    this.speed = 550 + (Math.random()*300); //Random Speed for enemy movements on X Axis.
+    this.speed = 550 + (Math.random()*400); //Random Speed for enemy movements on X Axis.
 
 }
     // Update the enemy's position, required method for game
